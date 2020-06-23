@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#navbar a{
+  color: rgb(230, 20, 20);
+
+}
+
+#content{
+  background-color: #008aff;
+}
+
+/* custom scroll bar style */
+#proogressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  /* height: 50%;  */
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  animation: animate 5s linear infinite;
+}
+
+#proogressbar:before,
+#proogressbar:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(10px);
+}
+
+#proogressbar:after {
+  filter: blur(30px);
+}
+
+#scrollpath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#percent {
+  position: fixed;
+  top: 50%;
+  right: 15px;
+  color: rgb(212, 44, 44);
+  transform: translateY(-50%) rotateX(180deg) rotateY(180deg);
+  font-size: 2em;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+#flike:hover,
+#flike:active {
+  color: red;
+}
+
+/* main styles */
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+  background-color: #2d2d30;
+  /* color: #bdbdbd; */
+  height: 100vh;
+}
+h3, h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;      
+  font-size: 20px;
+  color: #111;
+}
+.container {
+  padding: 80px 120px;
+  background: #050561;
+}
+
+.bg-1 {
+  background: #404049;
+  color: hsl(0, 0%, 74%);
+}
+.bg-1 h3 {
+  color: #ffffff;
+}
+.bg-1 p {
+  font-style: italic;
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail p {
+  margin-top: 15px;
+  color: #555555;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: rgb(66, 207, 53);
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+.btn:hover, .btn:focus {
+  border: 1px solid rgb(112, 230, 76);
+  background-color: #fff;
+  color: #000;
+}
+
+p {font-size: 16px;}
+.margin {
+  margin-bottom: 45px;
+}
+
+.bg-2 { 
+  background-color: #3d74eb;
+  color: hsl(0, 0%, 100%);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 0;
+  text-align: center;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  color: #ffffff;
+}
+
+tr:nth-child(even){
+  background-color: hsl(0, 0%, 15%);
+  color:whitesmoke;
+}
+tr:nth-child(old){
+  background-color: hsl(0, 2%, 10%);
+  color:whitesmoke;
+} 
