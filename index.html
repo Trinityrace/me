@@ -1,174 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta name="Description"
-    content="Trinity's simple website page with links to other webpages and social media sites. Author: Trinity Category:,Portfolio,Fun,  " />
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="Description"
+  content="Trinity's simple website page with links to other webpages and social media sites. Author: Trinity Category:,Portfolio,Fun,  " />
 
-  <link rel="stylesheet" href="css/style.css" />
+  <title>port</title>
+
+  <link rel="stylesheet" href="css/base.css">
 
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <title>WELCOME</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+
 </head>
 
-<body>
-  <div class="container">
-    <div class="nav" id="nav">
-      <h1>HELLO FRIEND</h1>
-    </div>
-    <br />
-    <div class="content" id="content">
-      <div class="1">
-        <div class="card-container">
-          <div class="card">
-            <figure class="front">
-              <div class="image-container fade">
-                <img src="./img/netflix.jpg" alt="netflix on screen" />
+<body id="myPage" data-spy="scroll" data-offset="50" class="bg-1">
+  <div id="proogressbar"></div>
+  <div id="scrollpath"></div>
+  <div id="percent"></div>
 
-                <!-- <h2>1</h2> -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="">HELLO FRIEND</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">about</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">projects</a>
+          <a class="dropdown-item" href="#">about</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">contact</a>
+          <a class="dropdown-item" href="two.html" target="_blank">Version 1</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Whatsapp</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+  
+  <div class="bg-1">
+    
+        <div class="container">
+      
+          <div
+            style="background:url('img/me.png'); height: 50vh; background-size: cover; background-position: center;">
+            <div id="intro">
+              <div class="mask rgba-black-strong" style="height: 50vh;">
+                <div class="container-fluid d-flex align-items-center justify-content-center h-50">
+                  <div class="row d-flex justify-content-center text-center">
+                    <div class="col-lg-12 pt-5 mt-5">
+                      <br><br>
+                      <!-- Heading -->
+                      <h3 class="display-4 font-weight-bold white-text pt-5">John UNraveled</h3>
+                      <!-- Divider -->
+                      <hr class="hr-light"  style="border-top: 1px dashed red;" >
+                      <p style="color: rgb(253, 231, 28); font-weight: bold;" class="font-weight-bold white-text"> 
+                      welcome to my page lets write a good story!
+                      </p>
+                      <!-- <a class="btn btn-warning btn-lg font-weight-bold" href=""> #</a> -->
+                    </div>
+                  </div>
+                </div>
               </div>
-            </figure>
-            <figure class="back">
-              <a href="#">
-                <button><i class="fas fa-lg fa-cat"></i></button>
-              </a>
-            </figure>
+            </div>
+          </div><br>
+          <hr class="hr-light"  style="border-top: 1px dashed red;" >
+          <h3 class="text-center" >My Projects</h3><br>
+          <div class="row text-center">
+            <!-- <h3 class="text-center" >My Projects</h3><br> -->
+            
+            <div class="col-sm-12 col-xs-12 col-xl-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                
+                  <img src="img/rateit.png" width="300" height="300" />
+                
+                <p><strong>Title:</strong> Rate Projects.</p>
+                <p><strong>Description:</strong> Submit your site and get it rated.</p>
+                <p><a href="https://awardit.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-warning">Live Site</button>
+                  </a></p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-xs-12 col-xl-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                
+                  <img src="img/picart.png" width="300" height="300" />
+                
+                <p><strong>Title:</strong> Gallery.</p>
+                <p><strong>Description:</strong> Awesome Django powered Gallery.</p>
+                <p><a href="https://piksy.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-warning">Live Site</button>
+                  </a></p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-xs-12 col-xl-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                
+                  <img src="img/search.png" width="300" height="300" />
+                
+                <p><strong>Title:</strong> Github Search.</p>
+                <p><strong>Description:</strong> Find Anyone on Github.</p>
+                <p><a href="https://trinityrace/github.io/gitSearch/" target="_blank"><button type="button" class="btn btn-outline-warning">Live Site</button>
+                  </a></p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-xs-12 col-xl-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+               
+                  <img src="img/pizza.png" width="300" height="300" />
+               
+                <p><strong>Title:</strong> Pizza Js</p>
+                <p><strong>Description:</strong> javascript powered pizza order site</p>
+                <p><a href="https://trinityrace.github.io/wk4pizza/" target="_blank"><button type="button" class="btn btn-outline-warning">Live Site</button>
+                  </a></p>
+              </div>
+            </div>
+            
           </div>
         </div>
-      </div>
-      <div class="2">
-        <div class="card-container">
-          <div class="card">
-            <figure class="front">
-              <div class="image-container fade">
-                <img src="./img/netflix.jpg" alt="netflix on screen" />
-              </div>
-            </figure>
-            <figure class="back">
-              <a href="#">
-                <button>madlips</button>
-              </a>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="3">
-        <div class="card-container">
-          <div class="card">
-            <figure class="front">
-              <div class="image-container fade">
-                <img src="./img/man.jpg" alt="man raising foot" />
-              </div>
-            </figure>
-            <figure class="back">
-              <h2>3</h2>
-              <a href="#" rel=""> <button>button</button></a>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="4">
-        <div class="card-container">
-          <div class="card">
-            <figure class="front">
-              <div class="image-container fade">
-                <img src="./img/her.jpg" alt="man raising foot" />
-              </div>
-            </figure>
-            <figure class="back">
-              <h2>4</h2>
-              <a href="#" rel="nofollow">
-                <button>news</button></a>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="5">
-        <div class="card-container">
-          <div class="card">
-            <figure class="front">
-              <div class="image-container">
-                <img src="/img/zodic.jpg" alt="zodiac signs" />
-              </div>
-            </figure>
-            <figure class="back">
-              <a href="#">
-                <button>madlips</button>
-              </a>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="6">
-        <div class="card-container">
-          <div class="card">
-            <figure class="front">
-              <div class="image-container">
-                <img src="/img/face.jpg" alt="beautiful face woman" />
-              </div>
-            </figure>
-            <figure class="back">
-              <a href="#" rel="nofollow">
-                <button>nada</button></a>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="7">
-        <div class="card-container">
-          <div class="card">
-            <figure class="front">
-              <div class="image-container">
-                <img src="/img/crib.jpg" alt="beautiful interior decoration" />
-              </div>
-            </figure>
-            <figure class="back">
-              <a href="#" rel="nofollow">
-                <button>try buddymeter fun!</button></a>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="8">
-        <div class="card-container">
-          <div class="card">
-            <figure class="front">
-              <div class="image-container">
-                <img src="/img/bike.jpg" alt="man riding bicycles" />
-              </div>
-            </figure>
-            <figure class="back">
-              <a href="" rel="nofollow">
-                <button>text me</button>
-              </a>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <hr />
-    </div>
-    <br />
-    <div class="footer" id="footer">
-      <a href="https://www.instagram.com/aceyincc">
-        <i class="fas fa-lg fa-university"></i>
-      </a>
-      <a href="#">
-        <button><i class="fa fa-lg fa-satellite"></i> contact me</button>
-      </a>
-    </div>
+      
+
+      <nav class="navbar fixed-bottom navbar-light bg-primary">
+        <!-- <a class="navbar-brand" href="#">Socials</a> -->
+        <a href="" style="color: crimson;">
+          <i class="fas fa-truck-monster fa-lg fa-spin"></i>
+        </a>
+        <a href="" style="color: crimson;">
+          <i class="fa fa-instagram fa-lg" ></i>
+        </a>
+        
+        <span class="copyright">&copy;2020 </span>
+        <a href="" style="color: crimson;">
+          <i class="fas fa-cog fa-lg fa-spin"></i>
+        </a>
+        <a href="" style="color: crimson;">
+          <i class="fas fa-play fa-spin fa-lg"></i>
+        </a>
+      
+      </nav>
+    
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    var proogressbar = document.getElementById("proogressbar");
+    var percent = document.getElementById("percent");
+
+    var totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function () {
+      var progress = (window.pageYOffset / totalHeight) * 100;
+      proogressbar.style.height = progress + "%";
+      percent.innerHTML = Math.round(progress) + "%";
+      // percent.innerHTML = "Page Scrolled " + Math.round(progress) + "%"
+    };
+  </script>
+
+
 </body>
 
 </html>
+
+
+
+
